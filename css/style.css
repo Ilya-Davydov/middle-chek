@@ -1,3 +1,9 @@
+h2 {
+	text-align: center;
+}
+
+/* ------Задание 1 ---------- */
+
 .container {
 	display: flex;
 	width: 800px;
@@ -109,4 +115,94 @@
 	color: white;
 	line-height: 50px;
 	font-size: 30px;
+}
+
+/* ------Задание 2 ---------- */
+
+p::before {
+	content: 'Начало:';
+	color: brown;
+}
+p::after {
+	content: ':Конец!';
+	color: green;
+}
+
+/* ------Задание 3 ---------- */
+
+.wrapper {
+	width: 1420px;
+	padding: 15px;
+
+}
+.Blok1 {
+	width: 100%;
+	height: 200px;
+	background-color: brown;
+	margin: 0 auto;
+}
+.Blok2 {
+	width: 68%;
+	height: 200px;
+	background-color: brown;
+	margin: 15px 15px 15px 0px;
+}
+.Blok3 {
+	width: 33%;
+	height: 200px;
+	background-color: brown;
+	margin: 0px 15px 15px 0px;
+	float: left;
+}
+.Blok4 {
+	width: 34%;
+	height: 200px;
+	background-color: brown;
+	margin: 0px 15px 15px 0px;
+	float: left;
+}
+.Blok5 {
+	width: 30%;
+	height: 413px;
+	background-color: brown;
+	position: relative;
+	top: -215px;
+	left: 987px;
+}
+
+@media (max-width: 820px) {
+	.Blok1 {
+		width: 90%;
+		height: 200px;
+		background-color: brown;
+		margin: 10px;
+	}
+	.Blok2 {
+		width: 68%;
+		height: 200px;
+		background-color: brown;
+		margin: 15px 15px 15px 0px;
+	}
+	.Blok3 {
+		width: 33%;
+		height: 200px;
+		background-color: brown;
+		margin: 0px 15px 15px 0px;
+		float: left;
+	}
+	.Blok4 {
+		width: 34%;
+		height: 200px;
+		background-color: brown;
+		margin: 0px 15px 15px 0px;
+		float: left;
+	}
+	.Blok5 {
+		width: 30%;
+		height: 413px;
+		background-color: brown;
+		position: relative;
+		top: -215px;
+		left: 987px;
+}
 }
